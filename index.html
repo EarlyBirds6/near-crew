@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050505">
+  <title>NEAR CREW — Join the Crew</title>
+  <meta name="description" content="NEAR Crew — a community-first digital collection on NEAR.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav">
+    <a class="brand" href="#">
+      <span class="brand-mark">N</span>
+      <span>NEAR<span class="muted">CREW</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#collection">Collection</a>
+      <a href="#story">Story</a>
+      <a href="#roadmap">Roadmap</a>
+    </nav>
+    <button class="wallet-btn" id="connectBtn">CONNECT WALLET</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="dot"></span> BUILT ON NEAR</div>
+        <h1>THE CREW<br><span>IS ASSEMBLING.</span></h1>
+        <p class="lead">A community-first digital collection for people building, creating and exploring on NEAR.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#mint">JOIN THE CREW <span>↗</span></a>
+          <a class="ghost-btn" href="#collection">EXPLORE</a>
+        </div>
+        <div class="mini-stats">
+          <div><strong>5,555</strong><span>SUPPLY</span></div>
+          <div><strong>NEAR</strong><span>NETWORK</span></div>
+          <div><strong>∞</strong><span>CREW ENERGY</span></div>
+        </div>
+      </div>
+
+      <div class="hero-art reveal delay">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="card-glow"></div>
+        <div class="crew-card">
+          <div class="card-top"><span>NEAR CREW</span><span>#0001</span></div>
+          <div class="character">
+            <div class="antenna"></div>
+            <div class="helmet">
+              <div class="visor"><span></span></div>
+              <div class="ear left"></div><div class="ear right"></div>
+            </div>
+            <div class="body"></div>
+            <div class="badge">N</div>
+          </div>
+          <div class="card-bottom"><span>JOIN THE</span><strong>CREW</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="collection highlights">
+      <div>NEAR CREW</div><div>ONCHAIN CULTURE</div><div>COMMUNITY FIRST</div><div>NEAR CREW</div><div>ONCHAIN CULTURE</div>
+    </section>
+
+    <section class="section" id="mint">
+      <div class="section-label">01 / ACCESS</div>
+      <div class="mint-grid">
+        <div>
+          <h2>YOUR SEAT<br>IS WAITING.</h2>
+          <p>Connect your wallet to reserve your place. This front-end is ready for your final contract / whitelist logic.</p>
+        </div>
+        <div class="mint-panel">
+          <div class="panel-head"><span>WHITELIST</span><span class="live"><i></i> LIVE</span></div>
+          <div class="progress"><span style="width: 64%"></span></div>
+          <div class="progress-meta"><span><b id="claimed">964</b> CLAIMED</span><span>1,500 SPOTS</span></div>
+          <div class="countdown">
+            <div><strong id="days">07</strong><small>DAYS</small></div>
+            <div><strong id="hours">18</strong><small>HOURS</small></div>
+            <div><strong id="minutes">42</strong><small>MIN</small></div>
+            <div><strong id="seconds">11</strong><small>SEC</small></div>
+          </div>
+          <button class="mint-btn" id="mintBtn">CONNECT TO CONTINUE <span>→</span></button>
+          <p class="fine">No transaction will be sent in this demo build.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section collection" id="collection">
+      <div class="section-label">02 / COLLECTION</div>
+      <div class="section-head">
+        <h2>ONE CREW.<br><span>5,555 STORIES.</span></h2>
+        <p>Built to become a recognizable community layer around NEAR. Traits, metadata and mint mechanics can be connected to your final collection later.</p>
+      </div>
+      <div class="gallery">
+        <div class="tile t1"><span>#0142</span><b>CREW / 01</b></div>
+        <div class="tile t2"><span>#0777</span><b>CREW / 02</b></div>
+        <div class="tile t3"><span>#1200</span><b>CREW / 03</b></div>
+        <div class="tile t4"><span>#2401</span><b>CREW / 04</b></div>
+      </div>
+    </section>
+
+    <section class="section story" id="story">
+      <div class="section-label">03 / STORY</div>
+      <div class="story-grid">
+        <div class="big-number">N<span>→</span></div>
+        <div>
+          <h2>NOT JUST<br>A PFP.</h2>
+          <p>NEAR Crew is designed as a social identity for people who want to participate in the next wave of onchain culture. The collection is the entry point; the community is the product.</p>
+          <div class="principles">
+            <div><b>01</b><span>Community over hype.</span></div>
+            <div><b>02</b><span>Build in public.</span></div>
+            <div><b>03</b><span>Keep shipping.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section roadmap" id="roadmap">
+      <div class="section-label">04 / ROADMAP</div>
+      <div class="roadmap-list">
+        <div class="road"><span>01</span><div><h3>ASSEMBLE</h3><p>Launch, whitelist and first crew members.</p></div><em>NOW</em></div>
+        <div class="road"><span>02</span><div><h3>CONNECT</h3><p>Community activations, collaborations and creator drops.</p></div><em>NEXT</em></div>
+        <div class="road"><span>03</span><div><h3>EXPAND</h3><p>Utility, partnerships and new onchain experiences.</p></div><em>LATER</em></div>
+      </div>
+    </section>
+
+    <section class="cta" id="community">
+      <div class="eyebrow"><span class="dot"></span> SEE YOU ONCHAIN</div>
+      <h2>READY TO JOIN?</h2>
+      <button class="primary-btn large" id="communityBtn">CONNECT WALLET <span>↗</span></button>
+    </section>
+  </main>
+
+  <footer>
+    <div>© 2026 NEAR CREW</div>
+    <div class="socials"><a href="#" aria-label="X">X</a><a href="#" aria-label="Telegram">TG</a><a href="#" aria-label="Discord">DC</a></div>
+    <div>BUILT FOR NEAR</div>
+  </footer>
+
+  <div class="modal" id="walletModal">
+    <div class="modal-backdrop" id="closeModal"></div>
+    <div class="modal-card">
+      <button class="close" id="closeModalBtn">×</button>
+      <div class="eyebrow"><span class="dot"></span> WALLET</div>
+      <h3>CONNECT TO<br>NEAR CREW.</h3>
+      <p>Choose a wallet to continue. Wallet integration is intentionally isolated in this first front-end build so your final contract can be connected safely.</p>
+      <button class="wallet-option" data-wallet="MyNearWallet">MyNearWallet <span>→</span></button>
+      <button class="wallet-option" data-wallet="Meteor Wallet">Meteor Wallet <span>→</span></button>
+      <button class="wallet-option" data-wallet="HERE Wallet">HERE Wallet <span>→</span></button>
+      <small id="walletStatus"></small>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
